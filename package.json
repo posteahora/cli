@@ -1,0 +1,51 @@
+{
+  "name": "@posteahora/cli",
+  "version": "0.1.0",
+  "description": "Command-line tool for PosteAhora — schedule and publish social posts across Instagram, X, LinkedIn, Threads, Facebook and more from your terminal or CI.",
+  "type": "module",
+  "bin": {
+    "posteahora": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "posteahora",
+    "cli",
+    "social-media",
+    "scheduling",
+    "instagram",
+    "twitter",
+    "linkedin",
+    "automation"
+  ],
+  "author": {
+    "name": "PosteAhora",
+    "url": "https://posteahora.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/posteahora/cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posteahora/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/posteahora/cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0"
+  }
+}
