@@ -28,6 +28,14 @@ posteahora auth --key pah_live_xxxxxxxx
 The key is validated and saved to `~/.posteahora/config.json`. You can also pass it
 per-run via the `POSTEAHORA_API_KEY` environment variable (handy in CI).
 
+## Workspaces
+
+A key is **bound to one workspace** — the one active when you created it. Every
+command (`accounts`, `posts`, `ideas`, `analytics`) acts on **that workspace's**
+data only. To work in another workspace, create a key there and use it. Writes
+are **role-gated**: a **viewer** key can read but cannot `post` (publish,
+schedule or draft) — those return `403`.
+
 ## Usage
 
 ```bash
