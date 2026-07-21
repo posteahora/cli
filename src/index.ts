@@ -23,7 +23,7 @@ ${c.bold("COMMANDS")}
   auth --key <pah_…>          Save & validate your API key
   auth                        Show current auth status
   logout                      Remove the saved key
-  accounts                    List connected social accounts (get their IDs)
+  accounts                    List your workspace's connected accounts (get their IDs)
   post "<caption>" --to …     Publish now, schedule, or draft a post
   posts [--status s]          List your posts
   ideas list | add "<title>"  Read or add backlog ideas
@@ -47,6 +47,11 @@ ${c.bold("EXAMPLES")}
 ${c.bold("CONFIG")}
   API key:  --key  >  POSTEAHORA_API_KEY  >  ~/.posteahora/config.json
   Base URL: POSTEAHORA_API_URL (default https://api.posteahora.com/functions/v1/api)
+
+${c.bold("WORKSPACES")}
+  A key is bound to one workspace: commands act on that workspace's accounts,
+  posts and ideas only. Use a key from another workspace to act there. A
+  viewer-role key can read but not post/schedule/publish.
 
 Docs: https://posteahora.com/docs`;
 
