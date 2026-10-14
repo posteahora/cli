@@ -1,8 +1,8 @@
 # @posteahora/cli
 
 Command-line tool for [PosteAhora](https://posteahora.com) — schedule and publish
-social posts across Instagram, X/Twitter, LinkedIn, Threads, Facebook, TikTok and
-more, straight from your terminal or CI.
+social posts across Instagram, X/Twitter, LinkedIn, Threads, Facebook, TikTok,
+Google Business and more, straight from your terminal or CI.
 
 A thin, zero-dependency wrapper over the PosteAhora public REST API.
 
