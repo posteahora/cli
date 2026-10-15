@@ -1,6 +1,6 @@
 {
   "name": "@posteahora/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line tool for PosteAhora — schedule and publish social posts across Instagram, X, LinkedIn, Threads, Facebook and more from your terminal or CI.",
   "type": "module",
   "bin": {
